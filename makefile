@@ -6,7 +6,7 @@ CC := riscv64-unknown-elf-gcc
 OBJDUMP := riscv64-unknown-elf-objdump
 CFLAGS := -O0 -std=gnu11 -Wall -specs=htif_nano.specs
 
-OBJECTS = 
+OBJECTS = custom_benchmark
 
 all: $(OBJECTS)
 
